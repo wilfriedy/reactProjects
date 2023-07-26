@@ -1,4 +1,4 @@
-export default cardsTypeData = [
+export const cardsTypeData = [
   {
     type: "Create custom cards",
     details:

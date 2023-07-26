@@ -5,6 +5,9 @@
   margin: 0;
   font-family: "Courier Prime", monospace;
 }
+body{
+  overflow-x: hidden;
+}
 
 a {
   font-weight: 500;
@@ -22,12 +25,12 @@ h1 {
 
 button {
   border-radius: 8px;
+  border-radius: 25px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -37,6 +40,18 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.section-container{
+  padding: 20px 90px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width:700px) {
+  .section-container{
+    padding: 10px 15px ;
+    place-content: center;
+  }
 }
 
 /* @media (prefers-color-scheme: light) {
