@@ -1,12 +1,15 @@
 import Button from "../Button/Button";
-import "./Testimonial.css";
+import "./SecTestimonial.css";
 
-function Testimonial() {
+function Testimonialsec() {
   return (
-    <div className="section-container">
-      <div className="section-bk">
-        <div className="sides-container">
-          <div className="left-test">
+    <div className="section-container testimonial-2">
+      <div className="section-bk-2">
+        <div className="sides-container-2">
+          <div className="left-test-2">
+            <img src="./img/features-03.png" alt="" />
+          </div>
+          <div className="right-test-2">
             <h2>Build a flexible card program for your business needs</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -23,14 +26,10 @@ function Testimonial() {
               </p>
             </div>
           </div>
-
-          <div className="right-test">
-            <img src="./img/features-02.png" alt="" />
-          </div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Testimonial;
+export default Testimonialsec;
